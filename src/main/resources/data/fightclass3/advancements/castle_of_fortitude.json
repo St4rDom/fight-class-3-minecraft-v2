@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "text": "Castle of Fortitude"
+    },
+    "description": {
+      "text": "Beat Jiu Ji-Tae with or under 4 hearts."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "fightclass3:imfree",
+  "criteria": {
+    "beat": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "I'M FREE"
+    },
+    "description": {
+      "text": "You've defeated the psychopath of the tunnel."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

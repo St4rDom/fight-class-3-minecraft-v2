@@ -1,0 +1,84 @@
+{
+  "loop": false,
+  "length": 0.75,
+  "override": true,
+  "body": [
+    {
+      "channel": "rotation",
+      "pre": [
+        0,
+        0,
+        0
+      ],
+      "post": [
+        0,
+        0,
+        0
+      ],
+      "timestamp": 0.0,
+      "interpolation": "linear"
+    }
+  ],
+  "rightArm": [
+    {
+      "channel": "rotation",
+      "pre": [
+        0,
+        0,
+        0
+      ],
+      "post": [
+        -70,
+        -20,
+        0
+      ],
+      "timestamp": 0.0,
+      "interpolation": "catmullrom"
+    },
+    {
+      "channel": "rotation",
+      "pre": [
+        -70,
+        -20,
+        0
+      ],
+      "post": [
+        30,
+        5,
+        0
+      ],
+      "timestamp": 0.15,
+      "interpolation": "catmullrom"
+    },
+    {
+      "channel": "rotation",
+      "pre": [
+        30,
+        5,
+        0
+      ],
+      "post": [
+        -10,
+        0,
+        0
+      ],
+      "timestamp": 0.35,
+      "interpolation": "catmullrom"
+    },
+    {
+      "channel": "rotation",
+      "pre": [
+        -10,
+        0,
+        0
+      ],
+      "post": [
+        0,
+        0,
+        0
+      ],
+      "timestamp": 0.75,
+      "interpolation": "catmullrom"
+    }
+  ]
+}
